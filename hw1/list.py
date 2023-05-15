@@ -4,6 +4,9 @@ class Node:
         self.next = None
         self.val = val
         self.key = key
+    
+    def __str__(self):
+        return f"{self.key} : {self.val}"
 
 class List:
     def __init__(self):
