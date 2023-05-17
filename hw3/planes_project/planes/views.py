@@ -46,3 +46,5 @@ def airport(request):
         return JsonResponse(airport_info)
     else:
         return HttpResponseBadRequest('Invalid request method')
+    
+
